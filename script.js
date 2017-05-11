@@ -20,13 +20,13 @@ $( document ).ready(function() {
 
     //move the icons
      $( ".spin-icon.row1" ).each(function(i){
-       $(this).delay(200*i).animate({top: `200px`}, 60*i);
+       $(this).delay(200*i).animate({top: `200px`}, 160*i);
      })
      $( ".spin-icon.row2" ).each(function(i){
-       $(this).delay(250*i).animate({top: `200px`}, 60*i);
+       $(this).delay(250*i).animate({top: `200px`}, 160*i);
      })
      $( ".spin-icon.row3" ).each(function(i){
-       $(this).delay(300*i).animate({top: `200px`}, 60*i);
+       $(this).delay(300*i).animate({top: `200px`}, 160*i);
      })
 
      //display winner message
